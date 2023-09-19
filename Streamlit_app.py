@@ -1,7 +1,7 @@
-Import Streamlit
+import streamlit
 
-Streamlit.tittle('My parents New Healthy Diner')
+streamlit.tittle('My parents New Healthy Diner')
 
-Streamlit.header('Breakfast Menu')
+streamlit.header('Breakfast Menu')
 
-Streamlit.text ('omega 3 and Blueberry Oatmeal')
+streamlit.text ('omega 3 and Blueberry Oatmeal')
