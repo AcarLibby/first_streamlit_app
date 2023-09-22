@@ -29,9 +29,9 @@ streamlit.header("Fruityvice Fruit Advice!")
 
 
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "dragon fruit")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "mango")
 
-fruit_choice = streamlit.text_input('What fruit would you like information about?','dragon fruit')
+fruit_choice = streamlit.text_input('What fruit would you like information about?','mango')
 streamlit.write('The user entered ', fruit_choice)
 
 # I add it here to make look like a proper search
@@ -39,7 +39,7 @@ streamlit.write('The user entered ', fruit_choice)
 
 
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ "dragon fruit")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ "mango")
 #streamlit.text(fruityvice_response.json())
 # write your own comment -what does the next line do? 
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
