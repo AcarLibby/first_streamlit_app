@@ -29,9 +29,9 @@ streamlit.header("Fruityvice Fruit Advice!")
 
 
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "kiwi")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "dragon fruit")
 
-fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
+fruit_choice = streamlit.text_input('What fruit would you like information about?','dragon fruit')
 streamlit.write('The user entered ', fruit_choice)
 
 # I add it here to make look like a proper search
