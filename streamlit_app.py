@@ -1,1 +1,1 @@
-c
+import snowflake.connector
